@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>From Billions to Trillions – describing a framework to solve the SDGs</title>
+<meta name="description" content="How a transformative approach to collaboration &amp; finance supports citizens, govts &amp; corporations to share the burden &amp; benefit of solving wicked problems.">
+<link rel="canonical" href="https://trillions.global/">
+<meta property="og:title" content="From Billions to Trillions">
+<meta property="og:description" content="How a transformative approach to collaboration and finance supports citizens, governments, corporations, and civil society to share the burdens and the benefits of solving wicked problems.">
+<meta property="og:image" content="https://trillions.global/assets/Billions_to_Trillions_TW_OG.png">
+<meta property="og:url" content="https://trillions.global/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="site2.css">
+<style>
+:root { --hot: #F2A93B; --deep: #9A5510; }
+.gap-fig { display: flex; align-items: baseline; gap: 18px; flex-wrap: wrap; }
+.gap-fig .cur { font-size: clamp(80px, 13vw, 200px); font-weight: 700; letter-spacing: -0.06em; line-height: .85; color: var(--deep); font-variant-numeric: tabular-nums; }
+.gap-fig .unit { font-family: var(--mo); font-size: 14px; letter-spacing: 3px; text-transform: uppercase; color: var(--navy); }
+.opp { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr); gap: 72px; align-items: start; }
+@media (max-width: 1023px) { .opp { grid-template-columns: minmax(0, 1fr); gap: 48px; } }
+.pocket .split-bar .a { background: var(--hot); color: var(--navy); width: 5%; min-width: 64px; justify-content: center; }
+.pocket .split-bar .b { background: rgba(159,153,193,.22); color: var(--pale); flex: 1; }
+.pocket .cap { display: flex; justify-content: space-between; gap: 16px; margin-top: 12px; font-family: var(--mo); font-size: 12px; color: var(--lav); }
+.steps { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0; margin-top: 8px; position: relative; }
+.steps .st { padding: 0 20px 0 0; }
+.steps .dot { width: 14px; height: 14px; background: var(--navy); border: 3px solid var(--g2); outline: 1px solid var(--navy); margin-bottom: 18px; position: relative; z-index: 1; }
+.steps .st:last-child .dot { background: var(--hot); outline-color: var(--deep); }
+.steps .n { font-family: var(--mo); font-size: 11px; letter-spacing: 1.4px; color: var(--deep); }
+.steps h3 { font-size: 20px; margin-top: 8px; line-height: 1.2; }
+.steps::before { content: ""; position: absolute; left: 7px; right: 10%; top: 7px; height: 2px; background: var(--navy); }
+@media (max-width: 809px) { .steps { grid-template-columns: minmax(0, 1fr); gap: 22px; } .steps::before { display: none; } }
+.mesh { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; margin-top: 14px; border-top: 1px solid var(--rule); }
+.mesh div { padding: 12px 14px 0 0; font-size: 13.5px; line-height: 1.5; color: var(--slate); }
+.mesh b { display: block; color: var(--navy); font-weight: 600; }
+@media (max-width: 639px) { .mesh { grid-template-columns: minmax(0, 1fr); } }
+.close-cta { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 36px; }
+.mn { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 64px; align-items: center; }
+@media (max-width: 1023px) { .mn { grid-template-columns: minmax(0, 1fr); } }
+.mn ol { list-style: none; padding: 0; border-top: 2px solid var(--navy); counter-reset: m; }
+.mn ol li { counter-increment: m; display: grid; grid-template-columns: 48px minmax(0, 1fr); padding: 13px 0; border-bottom: 1px solid var(--rule); font-size: 18px; font-weight: 600; letter-spacing: -0.01em; }
+.mn ol li::before { content: counter(m, decimal-leading-zero); font-family: var(--mo); font-size: 11px; font-weight: 500; color: var(--deep); padding-top: 5px; }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="bar" aria-hidden="false">
+  <div class="in">
+    <a class="brand" href="#top"><i></i><span>From Billions to Trillions</span></a>
+    <nav aria-label="Sections">
+      <a href="#opportunity">Opportunity</a>
+      <a href="#challenge">Challenge</a>
+      <a href="#innovation">Innovation</a>
+      <a href="#social-equity">Social Equity</a>
+      <a href="#market-network">Market Network</a>
+      <a href="#get-involved">Get Involved</a>
+    </nav>
+  </div>
+</div>
+
+<header class="hero" id="top">
+  <div class="archive"><div class="wrap"><span class="tag">Archive</span><span>Published May 2018, revised 2020. Some of the figures have changed since.</span><a href="#then-and-now">See what's changed</a></div></div>
+  <canvas class="live" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="#top"><i></i>Billions to Trillions</a>
+      <div class="links">
+        <a href="#opportunity">Opportunity</a>
+        <a href="#challenge">Challenge</a>
+        <a href="#innovation">Innovation</a>
+        <a href="#social-equity">Social Equity</a>
+        <a href="#market-network">Market Network</a>
+        <a class="btn btn-hot" href="#get-involved">Get Involved</a>
+      </div>
+    </nav>
+    <div class="cols">
+      <div>
+        <p class="eb">A framework to solve the SDGs</p>
+        <h1>From Billions <em>to Trillions</em></h1>
+        <p class="lede">How a transformative approach to collaboration and finance supports citizens, governments, corporations, and civil society to share the burdens and the benefits of solving wicked problems.</p>
+        <div class="cta">
+          <a class="btn btn-hot" href="assets/Billions_to_Trillions_2020.pdf">Download <span aria-hidden="true">↓</span></a>
+          <a class="btn btn-o" href="#the-gap">Read More</a>
+        </div>
+      </div>
+      <div class="proofcol">
+        <div class="k">By comparison</div>
+        <div><div class="n">$50 trillion</div><div class="d">estimated gap between current and required levels of funding for the SDGs</div></div>
+        <div><div class="n">$150 billion</div><div class="d">the International Space Station: the single most expensive construction project in history</div></div>
+        <div><div class="n">7.6 billion</div><div class="d">one village, 7.6 billion children</div></div>
+      </div>
+    </div>
+  </div>
+  <a class="scrollcue" href="#the-gap">Scroll for more<svg viewBox="0 0 9 14" aria-hidden="true"><path d="M4.5 0v10" stroke="currentColor" stroke-width="1.2" fill="none"/><path d="M0.8 8.2 4.5 13l3.7-4.8z" fill="currentColor"/></svg></a>
+</header>
+
+<main id="main">
+
+<section class="thennow" id="then-and-now">
+  <div class="wrap">
+    <div class="intro">
+      <div><p class="eb eb-n">Then and now</p><h2>Since publication, the annual SDG financing gap has grown.</h2></div>
+      <p>This paper is published here as it was written. The figures below show how the numbers it rests on have moved since, from the most recent primary sources.</p>
+    </div>
+    <table class="tn">
+      <thead><tr><th scope="col">The figure</th><th scope="col">In the paper (2018)</th><th scope="col">Now</th></tr></thead>
+      <tbody>
+        <tr><td class="what">The SDG funding gap</td><td><span class="v">$50 trillion</span>estimated gap between current and required levels of funding</td><td class="now"><span class="v">$4.2 trillion a year</span>annual SDG financing gap for developing countries, up from $2.5 trillion before the COVID-19 pandemic. An annual figure, measured differently, so not directly comparable.<span class="src"><a href="https://desapublications.un.org/publications/financing-sustainable-development-report-2024">UN Financing for Sustainable Development Report, April 2024</a></span></td></tr>
+        <tr><td class="what">Progress towards 2030</td><td><span class="v">2030</span>“not only can we solve the SDGs by 2030, but that we must”</td><td class="now"><span class="v">35%</span>of SDG targets with trend data are on track or showing moderate progress; 18% have regressed.<span class="src"><a href="https://unstats.un.org/sdgs/report/2025/">UN Sustainable Development Goals Report 2025</a></span></td></tr>
+        <tr><td class="what">World population</td><td><span class="v">7.6 billion</span>“one village, 7.6 billion children”</td><td class="now"><span class="v">8.2 billion</span>world population in 2024.<span class="src"><a href="https://population.un.org/wpp/">UN World Population Prospects 2024</a></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="arrest" id="the-gap">
+  <div class="wrap">
+    <p class="eb">Global investments into the Sustainable Development Goals are woefully inadequate</p>
+    <p class="big rv">That's not a matter of opinion, that's a mathematical fact.</p>
+    <div class="facts">
+      <div class="rv"><div class="n">$50 trillion</div><p class="d">With an estimated $50 trillion gap between current and required levels of funding, its clear that current approaches simply don't work.</p></div>
+      <div class="rv"><div class="n">$150 billion</div><p class="d">The ISS would never have been launched without clearly defined incentives, and a coordinated pathway to success.</p></div>
+      <div class="rv"><div class="n">2030</div><p class="d">We believe that not only can we solve the SDGs by 2030, but that we <em>must</em>.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="introduction">
+  <div class="wrap">
+    <div class="head">
+      <div><p class="eb">The existing approach</p><h2>This is dangerously and wilfully naive.</h2></div>
+      <p class="sub">Billions to Trillions is the distillation of decades of combined thinking and acting in service to global change.</p>
+    </div>
+    <div class="read rv">
+      <div>
+        <p>Global investments into the Sustainable Development Goals are woefully inadequate for addressing one, let alone all, of them. With an estimated $50 trillion gap between current and required levels of funding, its clear that current approaches simply don't work. That's not a matter of opinion, that's a mathematical fact.</p>
+        <p>The existing approach presumes that a multitude of entities addressing some part of a broader challenge will, without appropriate incentives and mechanisms, self-organise themselves into effective, efficient, and scalable solutions. This is dangerously and wilfully naive. The International Space Station (ISS) – the largest multi-lateral project, and the single most expensive construction project in history, came at an estimated cost of only <a href="https://en.wikipedia.org/wiki/International_Space_Station#Cost">$150 billion</a> by comparison. The ISS would never have been launched without clearly defined incentives, and a coordinated pathway to success – so what makes governments, corporations, and civil society actors believe they can solve trillion dollar problems through a piecemeal, incremental, fragmented approach?</p>
+        <p>On the face of it, the bottom line is depressingly simple – there is no single entity with either the cash or the capacity to invest or deploy the requisite capital to achieve one, let alone all, of the Global Goals. And there are currently no incentives rewarding outcome over effort, or mechanisms for collaboration at the scale necessary to actually solve the SDGs.</p>
+      </div>
+      <div>
+        <p>In this challenge, however, also lies the opportunity: the constellation of entities working to address these issues require financial incentives, operational infrastructure, and no small measure of humility, to transition from organisation-centric behaviour, to mission-centric behaviour.</p>
+        <p>From our perspective, this is the only way in which human society will move from treating the acute problems the SDGs represent, towards the systemic resolution of the underlying chronic issues.</p>
+        <p><strong>We believe that not only can we solve the SDGs by 2030, but that we <em>must</em>.</strong> Further, we believe that the primary impediment to their resolution is rooted not solely in resources, technology, or intent, but primarily in a combination of ineffective systems design, and intransigent human behaviour driven by short-termism, fragmentation, and counterproductive incentives.</p>
+        <p>Billions to Trillions is the distillation of decades of combined thinking and acting in service to global change. As the saying goes, <em>it takes a village to raise a child</em>. And here we are, one village, 7.6 billion children. No matter where you live, what you do, or what you believe, we are all united in this great work. Peace, security, and dare we say it love, are both the drivers and the result of more effective connection, collaboration, and co-creation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec g2" id="opportunity">
+  <div class="wrap">
+    <div class="opp">
+      <div>
+        <p class="eb eb-n">01 · Opportunity</p>
+        <h2 class="statement rv" style="margin-top:16px">The business of change is <em>the biggest business there is.</em></h2>
+        <div class="gap-fig rv" style="margin-top:56px" aria-label="$50 trillion">
+          <span class="cur">$<span data-count="50">50</span></span><span class="unit">Trillion</span>
+        </div>
+      </div>
+      <div class="rv">
+        <p style="font-size:17px;line-height:1.66;color:var(--slate)">Solving trillion dollar problems is not achievable by any one entity in isolation, however. As such, the opportunity is for all citizens, across all sectors, engaging in any behaviour that contributes to measurable and often monetisable beneficial outcomes, to:</p>
+        <div class="rows" style="margin-top:28px">
+          <div class="row solo"><span class="n">01</span><h3>participate in the funding, design and deployment of core infrastructure.</h3></div>
+          <div class="row solo"><span class="n">02</span><h3>connect their current digital systems to backbone systems such that the value they already hold may be more effectively mobilised, and compensated.</h3></div>
+          <div class="row solo"><span class="n">03</span><h3>be appropriately compensated for the value they create</h3></div>
+        </div>
+        <p style="font-size:17px;line-height:1.66;color:var(--slate);margin-top:28px">Our model combines outcome based financing – a methodology by which funders fund on the basis of success – with the financial, legal, and technical structures to incentivise and operationalise collaboration at an unprecedented scale.</p>
+      </div>
+    </div>
+    <p class="qmark rv" style="margin-top:72px"><span class="eb" style="display:block;color:var(--deep);margin-bottom:14px;font-size:11px;letter-spacing:1.6px">The core question we are answering is</span>What could be not only more urgent, but more rewarding, than solving the greatest challenges of the 21st century?</p>
+  </div>
+</section>
+
+<section class="sec navy" id="challenge">
+  <div class="wrap">
+    <div class="head">
+      <div><p class="eb">02 · Challenge</p><h2>The core of the challenge is simple.</h2></div>
+      <p class="sub">Despite their commitment to change, most world-positive entities are either unable or unwilling to move beyond competition, or simple collaboration, in order to mobilise, knowledge, innovations, and capital at the scale, and with the speed necessary, to solve wicked problems.</p>
+    </div>
+    <div class="read rv">
+      <div>
+        <p>Over time this has resulted in the mass proliferation of parallel organisations, networks and initiatives.</p>
+        <p>Despite the best of intentions, each new venture spawns a new set of operational systems, and inevitably becomes constrained by organisational thinking, jargon and process. As much as these entities may intend to support the resolution of a mission larger than their own, they are often functionally unable to do so.</p>
+        <p>The business models of world-positive organisations have evolved to primarily serve the needs of the organisation, its partners, sponsors, and stakeholders, and are not designed to support cross-organisational funding, knowledge mobilisation, data sharing, deep collaboration, and resource efficiency.</p>
+        <p>Further, an unnecessary portion of the value these organisations create is locked within silos. Data, insights, and resources are essentially inaccessible to peer organisations working on the resolution of the same or similar problems.</p>
+        <p><strong>This results in unconscionable waste, the cost of which is measured in predictable and thereby avoidable social, economic, and environmental tragedy.</strong></p>
+      </div>
+      <div>
+        <p>Funders of change are complicit in this state of affairs, rewarding novelty over utility, competition over collaboration, and outputs over outcomes. This is further exacerbated in philanthropy by the prevailing ‘two pocket thinking’ that typically allocates 5% of capital to making world-positive change, while the other 95% remains invested in the industries and practices that produced the problems we face in the first place. We expand on the challenges exacerbated by the ‘golden herd’ on p. 12.</p>
+        <div class="pocket" role="img" aria-label="Two pocket thinking: 5% of capital to making world-positive change, 95% invested in the industries and practices that produced the problems">
+          <div class="split-bar"><div class="a">5%</div><div class="b">95%</div></div>
+          <div class="cap"><span style="max-width:30%">to making world-positive change</span><span>invested in the industries and practices that produced the problems</span></div>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top:72px">
+      <p class="eb" style="color:var(--hot)">These challenges can be summarised as dysfunctional social, technical and capital systems that give rise to the following:</p>
+      <div class="rows" style="margin-top:22px">
+        <div class="row solo"><span class="n">01</span><h3>undue influence from funders</h3></div>
+        <div class="row solo"><span class="n">02</span><h3>siloed, fragmented and inaccurate data</h3></div>
+        <div class="row solo"><span class="n">03</span><h3>ineffective data mobility</h3></div>
+        <div class="row solo"><span class="n">04</span><h3>data fragmentation</h3></div>
+        <div class="row solo"><span class="n">05</span><h3>misaligned, ineffective and myopic capital</h3></div>
+      </div>
+      <p class="statement rv" style="margin-top:44px;color:#fff">All of which results in <em>flawed decisions and actions.</em></p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="innovation">
+  <div class="wrap">
+    <div class="head">
+      <div><p class="eb">03 · Innovation</p><h2 class="l">There are four distinct streams of innovation that have been occurring in parallel over the past decade.</h2></div>
+      <p class="sub">Yet up until now, these innovations have not been effectively combined and harnessed toward the global good.</p>
+    </div>
+    <div class="two wide-r">
+      <figure class="draw dg" aria-label="Four streams of innovation, social, financial, legal and technical, overlapping" role="img">
+        <svg viewBox="0 0 440 440" aria-hidden="true">
+          <g fill="none" stroke-width="1.5">
+            <circle class="route" cx="160" cy="160" r="118" stroke="#9F99C1" style="--d:.0s"/>
+            <circle class="route" cx="280" cy="160" r="118" stroke="#9F99C1" style="--d:.25s"/>
+            <circle class="route" cx="160" cy="280" r="118" stroke="#9F99C1" style="--d:.5s"/>
+            <circle class="route" cx="280" cy="280" r="118" stroke="#9F99C1" style="--d:.75s"/>
+          </g>
+          <g font-size="12" letter-spacing="1.6" fill="#031838">
+            <text x="96" y="96" text-anchor="middle">SOCIAL</text>
+            <text x="344" y="96" text-anchor="middle">FINANCIAL</text>
+            <text x="96" y="352" text-anchor="middle">LEGAL</text>
+            <text x="344" y="352" text-anchor="middle">TECHNICAL</text>
+          </g>
+          <rect class="pop" x="208" y="208" width="24" height="24" transform="rotate(45 220 220)" fill="#F2A93B" stroke="#9A5510" style="--d:1.4s"/>
+        </svg>
+      </figure>
+      <div class="grid" style="--c:2">
+        <div class="item rv"><span class="n">01</span><h3>Social</h3><p>Renowned futurist Faith Popcorn is <a href="https://www.faithpopcorn.com/about-us/trendbank.html" style="border-bottom:1px solid var(--lav)">tracking trends</a> that illuminate substantial shifts in human behaviour. Each is significant in isolation, but when viewed as a whole they represent a significant change in how citizens are engaging with the world, and driving our social, economic, and political systems to respond.</p></div>
+        <div class="item rv"><span class="n">02</span><h3>Financial</h3><p>On the finance side, we are seeing a plethora of financial tools and solutions that are being developed and that can be applied tactically to various social issues. <em>Strategically</em>, in turn, we see the development of outcome models and the ability to structure investment vehicles that make it possible to financially reward the achievement of social outcomes, or the demonstrated improvement over a baseline.</p></div>
+        <div class="item rv"><span class="n">03</span><h3>Legal</h3><p>The evolution of corporate forms has expanded the tool kit for creating structures that combine economic and social goals. In particular, the development of Public Benefit Corporations (PBCs) provides greater flexibility to governmental funding in partnership with the private sector. PBCs hardwire the social purpose and the interests of stakeholders other than investors into their articles of incorporation.</p></div>
+        <div class="item rv"><span class="n">04</span><h3>Technical</h3><p>While there are a significant number of evolutions in technology that have made it possible to consider a new infrastructure pathway – including trends in personalisation, customisation, cloud computing, mobile, and distributed registries, the three emerging mega-trends, as identified by <a href="https://www.cisco.com/c/en/us/solutions/data-center/gartner-2018-technology-trends.html" style="border-bottom:1px solid var(--lav)">Gartner</a>, are:</p>
+          <div class="mesh"><div><b>Intelligence</b>AI, Intelligent apps and analytics, and intelligent things</div><div><b>Digital</b>digital twins, cloud-to-the-edge models, conversational systems and immersive experience</div><div><b>Mesh</b>Distributed ledgers, and continuous adaptive risk and trust</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="arrest" id="social-equity">
+  <div class="wrap">
+    <p class="eb">04 · Social Equity</p>
+    <p class="big rv" style="max-width:28ch;font-size:clamp(28px,3.6vw,52px)">Social Equity is the radical idea that the citizens, communities, and organisations contributing to the solution of wicked problems participate financially in the outcomes to which they have contributed.</p>
+    <p class="d rv" style="margin-top:36px;font-size:18px;line-height:1.55;max-width:60ch">We believe the answer lies in the creation of Social Equity — both in the justice and fairness meaning of the word, and in the financial sense of creating new, tradable securities.</p>
+  </div>
+</section>
+
+<section class="sec g2" id="social-equity-how">
+  <div class="wrap">
+    <div class="read rv">
+      <div>
+        <p>Social Finance is finance in service of achieving the greater good. It takes the form of capital, and therein the range of diverse instruments available for its deployment. Current social finance approaches are woefully inadequate for stimulating the flow of trillions of dollars towards solving wicked problems, as previously laid out.</p>
+        <p>Yet the now almost predictable response is to propose alternative solutions, instruments, and product variations that, while philosophically sound (on the surface at least), are largely untenable at scale.</p>
+        <p>The fundamental reality is that no crypto currency, crowdfunding, impact investing, or philanthropic initiative will ever be able to generate the required traction and volume in the required time frame. Nor is it likely that today’s hedge-fund managers and bankers will dramatically shift their focus away from current practices.</p>
+      </div>
+      <div>
+        <p>The simple truth is that unless we can create a compelling reason for today’s primary holders of capital to shift their investment focus, and to do so in a way that supports their expectations of risk and reward, we are likely to fail.</p>
+        <p><strong>We must hold true to our ideals, while not being blinded to the urgency of our situation.</strong></p>
+      </div>
+    </div>
+
+    <p class="eb eb-n" style="margin-top:80px">We are proposing a five step process for achieving this transformation</p>
+    <div class="steps rv" style="margin-top:26px">
+      <div class="st"><div class="dot"></div><span class="n">01</span><h3>Monetise the problem</h3></div>
+      <div class="st"><div class="dot"></div><span class="n">02</span><h3>Align diverse stakeholders</h3></div>
+      <div class="st"><div class="dot"></div><span class="n">03</span><h3>Focus on outcomes over outputs</h3></div>
+      <div class="st"><div class="dot"></div><span class="n">04</span><h3>Create social equities</h3></div>
+      <div class="st"><div class="dot"></div><span class="n">05</span><h3>Embed finance in a larger system</h3></div>
+    </div>
+
+    <p class="eb eb-n" style="margin-top:80px">The infographic below provides an overview of the social equity framework.</p>
+    <figure class="fig draw dg" style="margin-top:26px">
+      <svg viewBox="0 0 1120 700" role="img" aria-label="The social equity framework: an entity with a vested interest pays for a metric that solves a problem; funds are released when hybrid LLPs achieve it; aligned investors finance the LLPs; the voice of community is part of the feedback loop">
+        <defs>
+          <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#031838"/></marker>
+          <marker id="ahh" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9A5510"/></marker>
+        </defs>
+        <g font-size="12" fill="#4E496B" text-anchor="end" letter-spacing=".2">
+          <text x="250" y="58">AN ENTITY WITH A VESTED INTEREST</text>
+          <text x="250" y="148">WOULD BENEFIT FROM</text><text x="250" y="166">SOLUTION OF PROBLEM</text>
+          <text x="250" y="238">AND IS WILLING TO PAY FOR</text><text x="250" y="256">MEASURABLE OUTCOMES THAT</text><text x="250" y="274">WILL SOLVE THIS PROBLEM</text>
+          <text x="250" y="342">UPON ACHIEVEMENT OF SOLUTION</text><text x="250" y="360">BY ECOSYSTEM PLAYERS &amp;</text><text x="250" y="378">POSITIVE MEASUREMENT OF</text><text x="250" y="396">OUTCOME, FUNDS ARE RELEASED</text>
+          <text x="250" y="482">MULTIPLE LLPS WORK</text><text x="250" y="500">INCREMENTALLY TOWARDS</text><text x="250" y="518">FULFILLMENT OF METRIC</text>
+          <text x="250" y="620">ALIGNED INVESTORS FINANCE</text><text x="250" y="638">MULTIPLE LLPS THAT ARE MOST</text><text x="250" y="656">LIKELY TO ACHIEVE METRIC</text>
+        </g>
+        <g font-family="Archivo, sans-serif" font-weight="600" text-anchor="middle">
+          <rect class="pop" x="300" y="30" width="420" height="48" fill="#031838" style="--d:.1s"/><text class="pop" x="510" y="61" fill="#fff" font-size="17" style="--d:.1s">Entity with Vested Interest</text>
+          <rect class="pop" x="300" y="128" width="420" height="48" fill="#fff" stroke="#031838" style="--d:.3s"/><text class="pop" x="510" y="159" fill="#031838" font-size="17" style="--d:.3s">Problem</text>
+          <rect class="pop" x="300" y="226" width="420" height="48" fill="#fff" stroke="#031838" style="--d:.5s"/><text class="pop" x="510" y="257" fill="#031838" font-size="17" style="--d:.5s">Metric</text>
+          <rect class="pop" x="300" y="342" width="420" height="54" fill="#F2A93B" stroke="#9A5510" stroke-width="2" style="--d:.7s"/><text class="pop" x="510" y="376" fill="#031838" font-size="17" style="--d:.7s">$ Paid for Fulfillment of Metric</text>
+          <rect class="pop" x="300" y="470" width="126" height="56" fill="#F2F0EB" stroke="#4E496B" stroke-dasharray="4 3" style="--d:.9s"/><text class="pop" x="363" y="504" fill="#031838" font-size="15" style="--d:.9s">Hybrid LLP</text>
+          <rect class="pop" x="447" y="470" width="126" height="56" fill="#F2F0EB" stroke="#4E496B" stroke-dasharray="4 3" style="--d:1s"/><text class="pop" x="510" y="504" fill="#031838" font-size="15" style="--d:1s">Hybrid LLP</text>
+          <rect class="pop" x="594" y="470" width="126" height="56" fill="#F2F0EB" stroke="#4E496B" stroke-dasharray="4 3" style="--d:1.1s"/><text class="pop" x="657" y="504" fill="#031838" font-size="15" style="--d:1.1s">Hybrid LLP</text>
+          <rect class="pop" x="300" y="614" width="420" height="48" fill="#031838" style="--d:1.3s"/><text class="pop" x="510" y="645" fill="#fff" font-size="17" style="--d:1.3s">Investors</text>
+        </g>
+        <g fill="none" stroke="#031838" stroke-width="1.5">
+          <line class="route" x1="510" y1="78" x2="510" y2="124" marker-end="url(#ah)" style="--d:.3s"/>
+          <line class="route" x1="510" y1="176" x2="510" y2="222" marker-end="url(#ah)" style="--d:.5s"/>
+          <line class="route" x1="510" y1="274" x2="510" y2="338" marker-end="url(#ah)" style="--d:.7s"/>
+          <path class="route" d="M363 470 V400" stroke="#9A5510" stroke-width="2.5" marker-end="url(#ahh)" style="--d:1.6s"/>
+          <path class="route" d="M510 470 V400" stroke="#9A5510" stroke-width="2.5" marker-end="url(#ahh)" style="--d:1.7s"/>
+          <path class="route" d="M657 470 V400" stroke="#9A5510" stroke-width="2.5" marker-end="url(#ahh)" style="--d:1.8s"/>
+          <path class="route" d="M363 614 V530" marker-end="url(#ah)" style="--d:1.4s"/>
+          <path class="route" d="M510 614 V530" marker-end="url(#ah)" style="--d:1.45s"/>
+          <path class="route" d="M657 614 V530" marker-end="url(#ah)" style="--d:1.5s"/>
+          <path class="route" d="M720 369 H900 V120" stroke="#9A5510" stroke-width="2" marker-end="url(#ahh)" style="--d:2s"/>
+        </g>
+        <g text-anchor="middle">
+          <rect class="pop" x="830" y="58" width="140" height="58" fill="#fff" stroke="#9A5510" style="--d:2.4s"/>
+          <text class="pop" x="900" y="83" font-family="Archivo, sans-serif" font-weight="600" font-size="15" fill="#031838" style="--d:2.4s">Ecosystem</text>
+          <text class="pop" x="900" y="102" font-family="Archivo, sans-serif" font-weight="600" font-size="15" fill="#031838" style="--d:2.4s">Restoration</text>
+          <circle class="pop" cx="900" cy="470" r="34" fill="#F2F0EB" stroke="#031838" style="--d:2.2s"/>
+          <circle class="pop" cx="900" cy="462" r="9" fill="#031838" style="--d:2.2s"/>
+          <path class="pop" d="M882 492 a18 14 0 0 1 36 0" fill="#031838" style="--d:2.2s"/>
+          <g font-size="12" fill="#4E496B"><text x="900" y="532">VOICE OF</text><text x="900" y="550">COMMUNITY IS</text><text x="900" y="568">KEY PART OF</text><text x="900" y="586">FEEDBACK LOOP</text></g>
+          <path class="route" d="M900 436 V384" fill="none" stroke="#031838" stroke-width="1.5" stroke-dasharray="3 4" marker-end="url(#ah)" style="--d:2.6s"/>
+        </g>
+      </svg>
+    </figure>
+  </div>
+</section>
+
+<section class="sec navy" id="design-principles">
+  <div class="wrap">
+    <div class="head">
+      <div><p class="eb">05 · Design Principles</p><h2>The minimum viable requirements for any systemic intervention.</h2></div>
+      <p class="sub">Developing infrastructure in service to the world's citizens – especially those in emerging markets and the global south, demands a solid ethical framework be established first. We believe that these principles represent the minimum viable requirements for any systemic intervention into wicked problems.</p>
+    </div>
+    <div class="grid" style="--c:5">
+      <div class="item rv"><span class="n">01</span><h3>Citizen Centred</h3><p>Citizen-centric design means designing for the needs of the individual participants and recognising their sovereignty and agency. By placing the human individual at the centre of the design experience, we ensure the design of a system that transcends organisational and political boundaries.</p></div>
+      <div class="item rv"><span class="n">02</span><h3>Equitable</h3><p>All participation in the framework must be appropriately recognised, attributed, and valued, with participation in the governance of the framework in situ commensurate with one’s level of experience, investment, and/or risk.</p></div>
+      <div class="item rv"><span class="n">03</span><h3>Adaptive</h3><p>We are not going to get this perfectly right before we begin. Being adaptive means focusing on the development of minimum viable agreements and a minimum viable product, and iterating forward on the basis of user feedback.</p></div>
+      <div class="item rv"><span class="n">04</span><h3>Distributed</h3><p>The centralisation of data is one of the primary causes of dysfunction within this market. We favour a decentralised approach to both data sharing, and platform interactions, utilising technologies such as holochain to validate value creation.</p></div>
+      <div class="item rv"><span class="n">05</span><h3>Ubiquitous</h3><p>Participating entities should be able to interact with the network regardless of physical or digital location, technology, bandwidth or other factors unique to their context. Further, they should be able to meaningfully interact with the entire system from any entry point.</p></div>
+      <div class="item rv"><span class="n">06</span><h3>Modular</h3><p>By developing an ecosystem comprised of multiple external platforms, each with their own business model, the components can be designed to work together, or alone, with equal effectiveness. This also minimises risk, by permitting modules to be swapped out as required.</p></div>
+      <div class="item rv"><span class="n">07</span><h3>Scalable</h3><p>Most ‘development’ technology platforms are designed for use in high-bandwidth, high-computing power environments, with reliable network and power access. This excludes many citizens from actively participating in, and benefiting from, the framework. For the framework to be scalable it has to work in low bandwidth settings, and allow for asynchronous operation.</p></div>
+      <div class="item rv"><span class="n">08</span><h3>Interoperable</h3><p>The platform, and its data, must be interoperable with all other adjacent and overlapping platforms and databases. This requires data protocols and standards, including universal taxonomies (see below), as well as the design of APIs as a functional requirement.</p></div>
+      <div class="item rv"><span class="n">09</span><h3>Measurable</h3><p>The system must be designed in such a way that the flow of value is quantifiable, supporting better sense-making, decision-making and capital flow.</p></div>
+      <div class="item rv"><span class="n">10</span><h3>Investible</h3><p>Monetary value must be able to be assigned to the value created within the framework. This is the only way in which the necessary level of financial capital can be brought to bear on wicked problems.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="market-network">
+  <div class="wrap">
+    <div class="head">
+      <div><p class="eb">06 · Market Network</p><h2 class="l">Market Networks are the foundation of our approach to addressing wicked problems.</h2></div>
+      <p class="sub">A Market Network is a framework that incorporates the above design principles, and describes the various entities, functions and mechanisms necessary to comprehensively and equitably address the SDGs.</p>
+    </div>
+    <div class="mn">
+      <figure class="draw dg" role="img" aria-label="The Market Network as concentric rings, from a citizen at the centre out to the market">
+        <svg viewBox="0 0 600 600" aria-hidden="true">
+          <g fill="none" stroke="#9F99C1" stroke-width="1">
+            <circle class="route" cx="300" cy="300" r="40" style="--d:.0s"/>
+            <circle class="route" cx="300" cy="300" r="74" style="--d:.1s"/>
+            <circle class="route" cx="300" cy="300" r="108" style="--d:.2s"/>
+            <circle class="route" cx="300" cy="300" r="142" style="--d:.3s"/>
+            <circle class="route" cx="300" cy="300" r="176" style="--d:.4s"/>
+            <circle class="route" cx="300" cy="300" r="210" style="--d:.5s"/>
+            <circle class="route" cx="300" cy="300" r="244" style="--d:.6s"/>
+            <circle class="route" cx="300" cy="300" r="278" stroke="#031838" stroke-width="1.5" style="--d:.7s"/>
+          </g>
+          <g fill="none" stroke="#C9C5DA" stroke-width="1">
+            <line x1="300" y1="22" x2="300" y2="578"/><line x1="22" y1="300" x2="578" y2="300"/>
+            <line x1="103" y1="103" x2="497" y2="497"/><line x1="497" y1="103" x2="103" y2="497"/>
+          </g>
+          <rect class="pop" x="291" y="291" width="18" height="18" transform="rotate(45 300 300)" fill="#F2A93B" stroke="#9A5510" style="--d:.9s"/>
+          <path class="route" d="M300 300 L340 300 L352 352 L300 408 L200 400 L180 300 L230 178 L352 128 L472 210 L500 340 L440 470 L300 554" fill="none" stroke="#9A5510" stroke-width="2.5" style="--d:1.1s"/>
+          <g font-size="10.5" letter-spacing="1.2" fill="#031838" text-anchor="middle" font-weight="500">
+            <text x="300" y="255" class="pop" style="--d:1.2s">COMMUNITY</text>
+            <text x="300" y="221" class="pop" style="--d:1.3s">PEOPLE &amp; ORGANISATIONS</text>
+            <text x="300" y="187" class="pop" style="--d:1.4s">SECTOR</text>
+            <text x="300" y="153" class="pop" style="--d:1.5s">MARKET FUNCTION</text>
+            <text x="300" y="119" class="pop" style="--d:1.6s">MECHANISMS</text>
+            <text x="300" y="85" class="pop" style="--d:1.7s">ALL FORMS OF CAPITAL</text>
+            <text x="300" y="51" class="pop" style="--d:1.8s">THE MARKET</text>
+            <text x="300" y="336" class="pop" fill="#9A5510" style="--d:1s">CITIZEN</text>
+          </g>
+        </svg>
+      </figure>
+      <div>
+        <p class="eb eb-n">From the centre out</p>
+        <ol style="margin-top:18px">
+          <li>A citizen</li>
+          <li>Lives in a community, and</li>
+          <li>Deploys capital to people and organisations.</li>
+          <li>The organisations are within a sector;</li>
+          <li>And have a market function</li>
+          <li>and associated mechanisms</li>
+          <li>For deploying all forms of capital</li>
+          <li>into the market</li>
+        </ol>
+        <p style="margin-top:28px;font-size:17px;line-height:1.66;color:var(--slate)">Market Networks are the foundation of our approach to addressing wicked problems. They leverage the contemporary innovations described previously, and are built in alignment with the design principles expressed above.</p>
+        <p class="statement" style="margin-top:28px;font-size:clamp(22px,2vw,28px)">Most importantly, they recognise that each human individual has a part to play in addressing these challenges, and should be <em>appropriately incentivised by compensation and control</em>, as the primary actors in effecting world-positive change.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec navy" id="get-involved">
+  <div class="wrap">
+    <div class="head">
+      <div><p class="eb">07 · Get Involved</p><h2 class="l">Like you, we are inspired by all that has been achieved, and frustrated by the gaps that still remain.</h2></div>
+      <div>
+        <p class="sub">If you would like to get involved in Market Network development, or simply have questions or comments on the content of this paper, please get in touch with any of the authors via LinkedIn by clicking on their images below.</p>
+        <div class="close-cta"><a class="btn btn-hot" href="assets/Billions_to_Trillions_2020.pdf">Download Now <span aria-hidden="true">↓</span></a></div>
+      </div>
+    </div>
+    <div class="read rv">
+      <div>
+        <p>Addressing the most urgent issues of our time is, as we said at the beginning, an activity that hundreds of millions of people are engaged with on a daily basis. From girl guides selling cookies, to local food entrepreneurs, billion dollar green cleaning companies, and international aid organisations tackling the refugee crisis, there is no question that humanity is increasingly engaged with finding ways to live more peacefully, equitably, and lovingly.</p>
+        <p>This document, while it takes the sword to many of the ways in which we work in service to humanity, is not intended to diminish the importance of the work already being done. If anything, it is to propose a path to elevating it, such that, collectively, we are able to create a better world for all.</p>
+        <p>Solving wicked problems is no small task, we know, and we are grateful to all who are contributing their time, talent, and resources to ensuring a thrivable future for not only our species, but all species. Further, while some are looking to the stars for answers – and we laud their efforts – we are looking to the ground beneath our feet.</p>
+      </div>
+      <div>
+        <p>By 2030 there will be close to 8.5 billion people living on earth. All of them have their own lives to live, their own stories to write, their own destinies to fulfil. And yet, for too long, we have accepted the unnecessary reality that some, more than others, will have access to healthcare, housing, education, and a compelling future for themselves and their loved ones. We have become inured to the true cost of current systems, and have, to a certain extent, lost our urgency as we talk increasingly in abstractions in order that we can not only understand the true scope of the problem, but avoid being emotionally crippled by the awful realities of human suffering and environmental degradation that we seek to address.</p>
+        <p>Our hope, in not only writing this document, but in continuing to forge partnerships with like minded individuals and organisations, is to explore how best we can make change at the scale and pace required. Clearly we believe that better systems are a significant part of the answer.</p>
+        <p><strong>More importantly, however, is a more truthful connection with ourselves, each other, and the world at large. For it is only in honestly acknowledging that it is love, empathy and compassion that drives us to action, that we might make the necessary behavioural changes that will supercharge these systems.</strong></p>
+      </div>
+    </div>
+
+    <p class="eb" style="margin-top:88px;color:var(--hot)">08 · Authors</p>
+    <div class="people" style="margin-top:26px">
+      <a class="person" href="https://linkedin.com/in/cameronkburgess" rel="noopener"><img src="assets/headshot-cameron-burgess.png" alt="" width="300" height="300"><h3>Cameron Burgess</h3><span class="go">LinkedIn →</span></a>
+      <a class="person" href="https://www.linkedin.com/in/ajscholz/" rel="noopener"><img src="assets/headshot-astrid-scholz.jpg" alt="" width="300" height="300"><h3>Astrid Scholz</h3><span class="go">LinkedIn →</span></a>
+      <a class="person" href="https://www.linkedin.com/in/audrey-selian-097261/" rel="noopener"><img src="assets/headshot-audrey-selian.jpeg" alt="" width="300" height="300"><h3>Audrey Selian</h3><span class="go">LinkedIn →</span></a>
+      <a class="person" href="https://www.linkedin.com" rel="noopener"><img src="assets/headshot-arthur-wood.jpg" alt="" width="300" height="300"><h3>Arthur Wood</h3><span class="go">LinkedIn →</span></a>
+    </div>
+    <div class="logos" style="margin-top:72px;padding-top:34px;border-top:1px solid rgba(159,153,193,.25)">
+      <a href="https://sphaera.world/" rel="noopener"><img src="assets/logo-sphaera.png" alt="Sphaera" width="300" height="87"></a>
+      <a href="http://www.arthaventurechallenge.com" rel="noopener"><img src="assets/logo-artha.png" alt="Artha Venture Challenge" width="300" height="75"></a>
+      <a href="http://www.totalimpactcapital.com" rel="noopener"><img src="assets/logo-total-impact-capital.png" alt="Total Impact Capital" width="300" height="88" ></a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="row1">
+      <a class="credit" href="https://armillaria.io"><img src="armillaria-logo-white.svg" alt="Armillaria" width="1814" height="501"><span>Republished by Armillaria</span></a>
+      <p class="meta">From Billions to Trillions · A framework to solve the SDGs</p>
+    </div>
+    <div class="row2">
+      <p class="meta">Sphaera, a partner in this work, became part of Armillaria in 2023.<br>This site sets no cookies and collects no data.</p>
+      <p class="meta"><a class="mail" href="mailto:connect@armillaria.io">connect@armillaria.io</a></p>
+    </div>
+  </div>
+</footer>
+<script src="site.js"></script>
+</body>
+</html>
